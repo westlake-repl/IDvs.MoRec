@@ -8,7 +8,7 @@ We find that use in-batch debiased cross-entropy loss can significantly enhance 
 -\sum\limits_{u \in \mathcal{U}} \sum\limits_{ i \in [2,...,L]}  \log \frac{\exp(\hat{y}_{ui} - \log(p_i))}{\exp(\hat{y}_{ui} - \log(p_i)) + \sum_{j \in [B], j \notin I_u} \exp(\hat{y}_{uj} - \log(p_j))}
 ```
 
-where (p(i)) represents the popularity of item (i) in the dataset. We conducted experiments on in-batch debiased cross-entropy loss using SASRec and report the results:
+where $p_i$ represents the popularity of item $i$ in the dataset. We conducted experiments on in-batch debiased cross-entropy loss using SASRec and report the results:
 
 | Dataset | Metrics | IDRec | BERT<sub>small</sub> | BERT<sub>base</sub> | RoBERTa<sub>base</sub> | Improv. |
 | --- | --- | --- | --- | --- | --- | --- |
