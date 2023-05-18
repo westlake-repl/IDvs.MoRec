@@ -14,6 +14,10 @@
 | Bili | HR@10 | 4.91 | 5.62 | 5.55 | **5.73** | +16.70% |
 | Bili | NDCG@10 | 2.71 | 3.08 | 3.03 | **3.14** | +15.87% | -->
 
+### Training
+The training details are coming soon ...
+
+
 ### Details of the pre-trained ME
 
 We report details of the pre-trained ME we used in Table.
