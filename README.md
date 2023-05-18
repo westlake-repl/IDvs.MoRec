@@ -1,10 +1,10 @@
 # IDvs.MoRec
 
-### In-batch debiased cross-entropy loss
+<!-- ### In-batch debiased cross-entropy loss -->
 
-We find that use in-batch debiased cross-entropy loss can significantly enhance the performance of IDRec and MoRec compared with the binary cross entropy loss we used. We conducted experiments on in-batch debiased cross-entropy loss using SASRec and report the results:
+<!-- We find that use in-batch debiased cross-entropy loss can significantly enhance the performance of IDRec and MoRec compared with the binary cross entropy loss we used. We conducted experiments on in-batch debiased cross-entropy loss using SASRec and report the results: -->
 
-| Dataset | Metrics | IDRec | BERT<sub>small</sub> | BERT<sub>base</sub> | RoBERTa<sub>base</sub> | Improv. |
+<!-- | Dataset | Metrics | IDRec | BERT<sub>small</sub> | BERT<sub>base</sub> | RoBERTa<sub>base</sub> | Improv. |
 | --- | --- | --- | --- | --- | --- | --- |
 | MIND | HR@10 | 22.60 | 22.96 | 22.82 | **23.00** | +1.77% |
 | MIND | NDCG@10 | 12.57 | **12.82** | 12.70 | **12.82** | +1.99% |
@@ -12,7 +12,7 @@ We find that use in-batch debiased cross-entropy loss can significantly enhance 
 | HM  | HR@10 | 11.94 | 11.90 | 12.20 | **12.26** | +2.68% |
 | HM  | NDCG@10 | **7.75** | 7.46 | 7.70 | 7.70 | -0.65% |
 | Bili | HR@10 | 4.91 | 5.62 | 5.55 | **5.73** | +16.70% |
-| Bili | NDCG@10 | 2.71 | 3.08 | 3.03 | **3.14** | +15.87% |
+| Bili | NDCG@10 | 2.71 | 3.08 | 3.03 | **3.14** | +15.87% | -->
 
 ### Details of the pre-trained ME
 
