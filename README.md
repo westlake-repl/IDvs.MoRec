@@ -1,19 +1,6 @@
 # IDvs.MoRec
 This repository contains the source code for the paper ''Where to Go Next for Recommender Systems? ID- vs. Modality-based Recommender Models Revisited'', presented at SIGIR 2023 in the [paper](https://arxiv.org/pdf/2303.13835.pdf).
- 
-<!-- ### In-batch debiased cross-entropy loss -->
 
-<!-- We find that use in-batch debiased cross-entropy loss can significantly enhance the performance of IDRec and MoRec compared with the binary cross entropy loss we used. We conducted experiments on in-batch debiased cross-entropy loss using SASRec and report the results: -->
-
-<!-- | Dataset | Metrics | IDRec | BERT<sub>small</sub> | BERT<sub>base</sub> | RoBERTa<sub>base</sub> | Improv. |
-| --- | --- | --- | --- | --- | --- | --- |
-| MIND | HR@10 | 22.60 | 22.96 | 22.82 | **23.00** | +1.77% |
-| MIND | NDCG@10 | 12.57 | **12.82** | 12.70 | **12.82** | +1.99% |
-| **Dataset** | **Metrics** | **IDRec** | **ResNet50** | **Swin-T** | **Swin-B** | **Improv.** |
-| HM  | HR@10 | 11.94 | 11.90 | 12.20 | **12.26** | +2.68% |
-| HM  | NDCG@10 | **7.75** | 7.46 | 7.70 | 7.70 | -0.65% |
-| Bili | HR@10 | 4.91 | 5.62 | 5.55 | **5.73** | +16.70% |
-| Bili | NDCG@10 | 2.71 | 3.08 | 3.03 | **3.14** | +15.87% | -->
 
 ### Training
 The training details are coming soon ...
