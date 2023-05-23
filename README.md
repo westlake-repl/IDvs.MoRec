@@ -1,5 +1,7 @@
 # IDvs.MoRec
-This repository contains the source code for the paper ''Where to Go Next for Recommender Systems? ID- vs. Modality-based Recommender Models Revisited'', presented at SIGIR 2023 in the [paper](https://arxiv.org/pdf/2303.13835.pdf).
+This repository contains the source code for the **SIGIR 2023** paper **''Where to Go Next for Recommender Systems? ID- vs. Modality-based Recommender Models Revisited''**.
+
+Full version in [[PDF]](https://arxiv.org/pdf/2303.13835.pdf).
 
 ![](fig/IDvsMoRec.jpg) 
 
@@ -18,17 +20,28 @@ We aim to revisit this `old' question and systematically study MoRec from severa
 
 ## Preparation
 
+### Data Download 
+The complete news recommendation dataset (MIND) is visible under the `dataset/MIND`, and the dataset with vision (HM and Bili) requires the following actions:
+
+Download the image file "hm_images.zip" (100,000 images in 3x224x224 size) for Hm dataset from this [link](https://drive.google.com/file/d/1zm0V3th-_ZxAevQM5yt8tkbLHnXGc6lk/view?usp=share_link). 
+
+Unzip the downloaded model file `hm_images.zip`, then put the unzipped directory `hm_images` into `dataset/Hm/` for the further processing.
+
+**Mentions:**
+The Bili dataset we used is from an unpublished paper, temporarily available via email (yuanzheng@westlake.edu.cn).
+
+
 ### Data Preparation
+You need to process the images file of HM dataset to a LMDB database for efficient loading during training.
 
+```
+cd dataset/HM
+python run_lmdb_hm.py
+```
 
+### Pre-trained Model Download
 
-## Training
-The training details are coming soon ...
-
-
-## Details of the pre-trained ME
-
-We report details of the pre-trained ME we used in Table.
+We report details of the pre-trained ME we used in Table. Download the pytorch-version of them, and put the checkpoint `pytorch_model.bin` into the corresponding path under `pretrained_models/`
 
 | Pre-trained model | #Param. | URL |
 | --- | --- | --- |
@@ -43,3 +56,29 @@ We report details of the pre-trained ME we used in Table.
 | Swin-T | 28M | https://huggingface.co/microsoft/swin-tiny-patch4-window7-224 |
 | Swin-B | 88M | https://huggingface.co/microsoft/swin-base-patch4-window7-224 |
 | MAE<sub>base</sub> | 86M | https://huggingface.co/facebook/vit-mae-base |
+
+## Training
+For training text MoRec with SASRec in **end2end** manner, and using **bert-base** as the modality encoder:
+```
+cd bce_text/main-end2end
+python train_bert_base.py
+```
+After training, you will get the checkpoint of the MoRec model, then set the parameters in  `test_bert_base.py` and run it for the test result.
+
+**Mentions:**
+You can change the `train_xxx.py` and the `test_xxx.py` to set the hyperparameters.
+The recommended GPU resource can be found in Table 6 in the paper.
+
+## Citation
+If you use our code or find IDvs.MoRec useful in your work, please cite our paper as:
+
+```bib
+@article{yuan2023go,
+  title={Where to Go Next for Recommender Systems? ID-vs. Modality-based recommender models revisited},
+  author={Yuan, Zheng and Yuan, Fajie and Song, Yu and Li, Youhua and Fu, Junchen and Yang, Fei and Pan, Yunzhu and Ni, Yongxin},
+  journal={arXiv preprint arXiv:2303.13835},
+  year={2023}
+}
+```
+
+
