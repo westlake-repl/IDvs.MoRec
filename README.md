@@ -13,11 +13,6 @@ We aim to revisit this `old' question and systematically study MoRec from severa
 - torch == 1.8.0+cu111
 - scikit-learn == 0.23.1
 - numpy == 1.18.5
-- nltk == 3.5
-- spacy == 2.3.5
-- scipy == 1.5.0
-- regex == 2020.6.8
-- tqdm == 4.60.0
 ```
 
 
