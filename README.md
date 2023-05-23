@@ -10,9 +10,9 @@ We aim to revisit this `old' question and systematically study MoRec from severa
 
 ## Requirements
 ```
-- torch == 1.8.0+cu111
-- scikit-learn == 0.23.1
-- numpy == 1.18.5
+- torch == 1.7.1+cu110
+- torchvision==0.8.2+cu110
+- transformers==4.20.1
 ```
 
 
