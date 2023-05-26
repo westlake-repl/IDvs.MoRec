@@ -58,6 +58,7 @@ We report details of the pre-trained ME we used in Table. Download the pytorch-v
 | MAE<sub>base</sub> | 86M | https://huggingface.co/facebook/vit-mae-base |
 
 ## Training
+An example:
 For training text MoRec with SASRec in **end2end** manner, and using **bert-base** as the modality encoder:
 ```
 cd bce_text/main-end2end
@@ -68,6 +69,7 @@ After training, you will get the checkpoint of the MoRec model, then set the par
 **Mentions:**
 You can change the `train_xxx.py` and the `test_xxx.py` to set the hyperparameters.
 The recommended GPU resource can be found in Table 6 in the paper.
+
 
 ## Citation
 If you use our code or find IDvs.MoRec useful in your work, please cite our paper as:
