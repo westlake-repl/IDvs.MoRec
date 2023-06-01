@@ -28,7 +28,7 @@ Download the image file "hm_images.zip" (100,000 images in 3x224x224 size) for H
 Unzip the downloaded model file `hm_images.zip`, then put the unzipped directory `hm_images` into `dataset/Hm/` for the further processing.
 
 **Mentions:**
-The Bili dataset we used is from an unpublished paper, temporarily available via email (yuanfajie@westlake.edu.cn, lifengyi@westlake.edu.cn, yuanzheng@westlake.edu.cn).
+The Bili dataset we used is from an unpublished paper, temporarily available via email (yuanfajie@westlake.edu.cn, lifengyi@westlake.edu.cn, yuanzheng@westlake.edu.cn). Please provide your name and affiliation information (using official email) when requesting the dataset via email.
 
 
 ### Data Preparation
