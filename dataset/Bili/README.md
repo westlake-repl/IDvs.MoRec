@@ -1,1 +1,1 @@
-This dataset is from an unpublished paper, temporarily available via email (yuanzheng@westlake.edu.cn)
+The Bili dataset we used is from an unpublished paper, temporarily available via email (yuanfajie@westlake.edu.cn, lifengyi@westlake.edu.cn, yuanzheng@westlake.edu.cn). Please fill out the applicant form `The Usage Guidelines of Bili.pdf` and provide your name and affiliation information (using official email) when requesting the dataset via email.
