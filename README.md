@@ -91,6 +91,9 @@ where $p_i$ represents the popularity of item $i$ in the dataset. We conducted e
 | Bili | HR@10 | 4.91 | 5.62 | 5.55 | **5.73** | +16.70% |
 | Bili | NDCG@10 | 2.71 | 3.08 | 3.03 | **3.14** | +15.87% |
 
+It can be seen from the results that both IDRec and MoRec have been greatly improved. During the experiment, it was also found that the convergence speed was significantly accelerated when using the in-batch debias loss. It is worth noting that under this more optimal training strategy, the viewpoints in our paper are still confirmed.
+
+
 
 ## Citation
 If you use our code or find IDvs.MoRec useful in your work, please cite our paper as:
