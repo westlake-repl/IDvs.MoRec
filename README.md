@@ -81,15 +81,15 @@ We find that using in-batch debiased cross-entropy loss can significantly enhanc
 
 where $p_i$ represents the popularity of item $i$ in the dataset. We conducted experiments on in-batch debiased cross-entropy loss using SASRec and report the results:
 
-| Dataset | Metrics | IDRec | BERT<sub>small</sub> | BERT<sub>base</sub> | RoBERTa<sub>base</sub> | Improv. |
-| --- | --- | --- | --- | --- | --- | --- |
-| MIND | HR@10 | 22.60 | 22.96 | 22.82 | **23.00** | +1.77% |
-| MIND | NDCG@10 | 12.57 | **12.82** | 12.70 | **12.82** | +1.99% |
-| **Dataset** | **Metrics** | **IDRec** | **ResNet50** | **Swin-T** | **Swin-B** | **Improv.** |
-| HM  | HR@10 | 11.94 | 11.90 | 12.20 | **12.26** | +2.68% |
-| HM  | NDCG@10 | **7.75** | 7.46 | 7.70 | 7.70 | -0.65% |
-| Bili | HR@10 | 4.91 | 5.62 | 5.55 | **5.73** | +16.70% |
-| Bili | NDCG@10 | 2.71 | 3.08 | 3.03 | **3.14** | +15.87% |
+| Dataset | Metrics | IDRec | BERT<sub>small</sub>| RoBERTa<sub>base</sub> | Improv. |
+| --- | --- | --- | --- | --- | --- |
+| MIND | HR@10 | 22.60 | 22.96  | **23.00** | +1.77% |
+| MIND | NDCG@10 | 12.57 | **12.82**  | **12.82** | +1.99% |
+| **Dataset** | **Metrics** | **IDRec** | **ResNet50**| **Swin-B** | **Improv.** |
+| HM  | HR@10 | 11.94 | 11.90 | **12.26** | +2.68% |
+| HM  | NDCG@10 | **7.75** | 7.46 | 7.70 | -0.65% |
+| Bili | HR@10 | 4.91 | 5.62 | **5.73** | +16.70% |
+| Bili | NDCG@10 | 2.71 | 3.08  | **3.14** | +15.87% |
 
 It can be seen from the results that both IDRec and MoRec have been greatly improved compared with the binary loss used in our paper. The experiments also showed that the convergence speed was significantly accelerated when using the in-batch debias loss. It is worth noting that under this more optimal training strategy, the viewpoints in our paper are still confirmed.
 
