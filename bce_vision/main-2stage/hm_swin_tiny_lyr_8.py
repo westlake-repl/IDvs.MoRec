@@ -19,9 +19,9 @@ epoch = 150
 load_ckpt_name = 'None'
 
 
-l2_weight_list = [0.01]
+l2_weight_list = [0.1]
 drop_rate_list = [0.1]
-batch_size_list = [512]
+batch_size_list = [64]
 lr_list_ct = [(1e-4, 0)]
 embedding_dim_list = [512]
 
