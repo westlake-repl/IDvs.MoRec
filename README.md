@@ -28,7 +28,7 @@ Download the image file "hm_images.zip" (100,000 images in 3x224x224 size) for H
 Unzip the downloaded model file `hm_images.zip`, then put the unzipped directory `hm_images` into `dataset/Hm/` for the further processing.
 
 **Mentions:**
-The Bili dataset we used is from an unpublished paper, temporarily available via email (yuanfajie@westlake.edu.cn, lifengyi@westlake.edu.cn, yuanzheng@westlake.edu.cn). Please fill out the applicant form `The Usage Guidelines of Bili.pdf` and provide your name and affiliation information (using official email) when requesting the dataset via email. Please send the same application email to the 3 email addresses mentioned above.
+The Bili dataset we used is from an unpublished paper, temporarily available via email (yuanfajie@westlake.edu.cn, lifengyi@westlake.edu.cn, yuanzheng@westlake.edu.cn). Please fill out the applicant form `The Usage Guidelines of Bili.pdf` and provide your name and affiliation information (using official email) when requesting the dataset via email. Please send the same application email to the 3 email addresses mentioned above.  
 
 
 ### Data Preparation
@@ -107,5 +107,10 @@ If you use our code or find IDvs.MoRec useful in your work, please cite our pape
   year={2023}
 }
 ```
+## Recruiting
+If you have an innovative idea for building a foundational recommendation model but require a large dataset and computational resources, consider joining our lab as an intern. We can provide access to 100 NVIDIA 80G A100 GPUs and a billion-level dataset of user-video/image/text interactions.
 
+The laboratory is hiring research assistants, interns, doctoral students, and postdoctoral researchers. Please contact the corresponding author for details.
+
+实验室招聘科研助理，实习生，博士生和博士后，请联系通讯作者。
 
