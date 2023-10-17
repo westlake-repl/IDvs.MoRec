@@ -1,9 +1,11 @@
-# IDvs.MoRec
+# IDvs.MoRec 
 This repository contains the source code for the **SIGIR 2023** paper **''Where to Go Next for Recommender Systems? ID- vs. Modality-based Recommender Models Revisited''**.
 
 Full version in [[PDF]](https://arxiv.org/pdf/2303.13835.pdf).
 
 ![](fig/IDvsMoRec.jpg) 
+
+# Invited Talk by DeepMind [(Slides)](https://github.com/westlake-repl/MicroLens/blob/master/MicroLens_DeepMind_Talk.pdf)
 
 ## Abstract
 Recommendation models that utilize unique identities (IDs for short) to represent distinct users and items have been state-of-the-art (SOTA) and dominated the recommender systems (RS) literature for over a decade. Meanwhile, the pre-trained modality encoders, such as BERT and Vision Transformer, have become increasingly powerful in modeling the raw modality features of an item, such as text and images. Given this, a natural question arises: can a purely modality-based recommendation model (MoRec) outperforms or matches a pure ID-based model (IDRec) by replacing the itemID embedding with a SOTA modality encoder? In fact, this question was answered ten years ago when IDRec beats MoRec by a strong margin in both recommendation accuracy and efficiency.
