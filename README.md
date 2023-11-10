@@ -93,7 +93,7 @@ where $p_i$ represents the popularity of item $i$ in the dataset. We conducted e
 | Bili | HR@10 | 4.91 | 5.62 | **5.73** | +16.70% |
 | Bili | NDCG@10 | 2.71 | 3.08  | **3.14** | +15.87% |
 
-It can be seen from the results that both IDRec and MoRec have been greatly improved compared with the binary loss used in our paper. The experiments also showed that the convergence speed was significantly accelerated when using the in-batch debias loss. It is worth noting that under this more optimal training strategy, the viewpoints in our paper are still confirmed.
+It can be seen from the results that both IDRec and MoRec have been greatly improved compared with the binary loss used in our paper. The experiments also showed that the convergence speed was significantly accelerated when using the in-batch debias loss. It is worth noting that  under this training setting, the viewpoints in our paper are still confirmed.
 
 We release the code of SASRec with the in-batch debias cross-entropy loss in `inbatch_sasrec_e2e_text` and `inbatch_sasrec_e2e_vision`, the way of running the codes is the same as described above.
 
