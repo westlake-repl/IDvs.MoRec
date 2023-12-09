@@ -5,7 +5,7 @@ Full version in [[PDF]](https://arxiv.org/pdf/2303.13835.pdf).
 
 ![](fig/IDvsMoRec.jpg) 
 
-# Invited Talk by Google DeepMind [(Slides)](https://github.com/westlake-repl/MicroLens/blob/master/MicroLens_DeepMind_Talk.pdf)
+
 
 
 
