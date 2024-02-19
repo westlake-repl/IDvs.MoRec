@@ -99,11 +99,12 @@ We release the code of SASRec with the in-batch debias cross-entropy loss in `in
 If you use our code or find IDvs.MoRec useful in your work, please cite our paper as:
 
 ```bib
-@article{yuan2023go,
-  title={Where to Go Next for Recommender Systems? ID-vs. Modality-based recommender models revisited},
-  author={Yuan, Zheng and Yuan, Fajie and Song, Yu and Li, Youhua and Fu, Junchen and Yang, Fei and Pan, Yunzhu and Ni, Yongxin},
-  journal={arXiv preprint arXiv:2303.13835},
-  year={2023}
+@inproceedings{yuan2023go,
+title = {Where to Go Next for Recommender Systems? ID- vs. Modality-based Recommender Models Revisited},
+author = {Yuan, Zheng and Yuan, Fajie and Song, Yu and Li, Youhua and Fu, Junchen and Yang, Fei and Pan, Yunzhu and Ni, Yongxin},
+booktitle = {Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+pages = {2639–2649},
+year = {2023}
 }
 ```
 ## Recruiting
