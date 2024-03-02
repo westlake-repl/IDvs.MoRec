@@ -12,7 +12,7 @@ Full version in [[PDF]](https://arxiv.org/pdf/2303.13835.pdf).
 
 -  **PixelRec**: https://github.com/westlake-repl/PixelRec
 
--  **MicroLens(DeepMind Talk)**: https://github.com/westlake-repl/MicroLens
+-  **MicroLens**: https://github.com/westlake-repl/MicroLens
   
 -  **NineRec(TPAMI)**: https://github.com/westlake-repl/NineRec 
 
