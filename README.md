@@ -8,6 +8,15 @@ Full version in [[PDF]](https://arxiv.org/pdf/2303.13835.pdf).
 
 ## Invited Talk by Google DeepMind [(Slides)](https://github.com/westlake-repl/MicroLens/blob/master/MicroLens_DeepMind_Talk.pdf)
 
+## **Resources from our team**: four Large-scale datasets for evaluating foundation / transferable / multi-modal / LLM recommendaiton models.
+
+-  **PixelRec**: https://github.com/westlake-repl/PixelRec
+
+-  **MicroLens(DeepMind Talk)**: https://github.com/westlake-repl/MicroLens
+  
+-  **NineRec(TPAMI)**: https://github.com/westlake-repl/NineRec 
+
+-  **Tenrec(NeurIPS)**: https://github.com/yuangh-x/2022-NIPS-Tenrec
 
 ## Requirements
 ```
