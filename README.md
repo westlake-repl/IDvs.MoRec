@@ -81,7 +81,7 @@ The recommended GPU resource can be found in Table 6 in the paper.
 ## !!!A better training strategy!!!
 ### In-batch debiased cross-entropy loss
 
-We find that using in-batch debiased cross-entropy loss can significantly enhance the performance of IDRec and MoRec compared with the binary cross-entropy loss:
+We find that using in-batch debiased cross-entropy loss (Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations (RecSys 2019)) can significantly enhance the performance of IDRec and MoRec compared with the binary cross-entropy loss:
 
 ```math
 -\sum\limits_{u \in \mathcal{U}} \sum\limits_{ i \in [2,...,L]}  \log \frac{\exp(\hat{y}_{ui} - \log(p_i))}{\exp(\hat{y}_{ui} - \log(p_i)) + \sum_{j \in [B], j \notin I_u} \exp(\hat{y}_{uj} - \log(p_j))}
@@ -102,6 +102,7 @@ where $p_i$ represents the popularity of item $i$ in the dataset. We conducted e
 It can be seen from the results that both IDRec and MoRec have been greatly improved compared with the binary loss used in our paper. The experiments also showed that the convergence speed was significantly accelerated when using the in-batch debias loss. It is worth noting that  under this training setting, the viewpoints in our paper are still confirmed.
 
 We release the code of SASRec with the in-batch debias cross-entropy loss in `inbatch_sasrec_e2e_text` and `inbatch_sasrec_e2e_vision`, the way of running the codes is the same as described above.
+
 
 
 ## Citation
