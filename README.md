@@ -31,7 +31,7 @@ Full version in [[PDF]](https://arxiv.org/pdf/2303.13835.pdf).
 ### Data Download 
 The complete news recommendation dataset (MIND) is visible under the `dataset/MIND`, and the dataset with vision (HM and Bili) requires the following actions:
 
-Download the image file "hm_images.zip" (100,000 images in 3x224x224 size) for Hm dataset from this [link](https://drive.google.com/file/d/1zm0V3th-_ZxAevQM5yt8tkbLHnXGc6lk/view?usp=share_link). 
+Download the image file "hm_images.zip" (100,000 images in 3x224x224 size) for HM dataset from this [link](https://drive.google.com/file/d/1zm0V3th-_ZxAevQM5yt8tkbLHnXGc6lk/view?usp=share_link). 
 
 Unzip the downloaded model file `hm_images.zip`, then put the unzipped directory `hm_images` into `dataset/Hm/` for the further processing.
 
