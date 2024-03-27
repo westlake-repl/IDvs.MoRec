@@ -1,4 +1,17 @@
 # IDvs.MoRec 
+<a href="https://arxiv.org/pdf/2303.13835.pdf" alt="arXiv"><img src="https://img.shields.io/badge/arXiv-2303.13835-FAA41F.svg?style=flat" /></a>
+<a href="https://dl.acm.org/doi/abs/10.1145/3539618.3591932" alt="SIGIR"><img src="https://img.shields.io/badge/SIGIR-2023-%23002FA7.svg?style=flat" /></a> 
+![Text-based Recsys](https://img.shields.io/badge/Task-Text-based Recsys-red) 
+![Vision-based Recsys](https://img.shields.io/badge/Task-Vision-based Recsys-red) 
+![Foundation Model](https://img.shields.io/badge/Task-Foundation_Model-red) 
+![Transfer Learning](https://img.shields.io/badge/Task-Transfer_Learning-red) 
+![Recommendation](https://img.shields.io/badge/Task-Recommendation-red) 
+
+Quick links: 
+[📋Talk](#Invited Talk by Google DeepMind) |
+[🗃️Download](#Data Download) |
+[📭Citation](#Citation) |
+[🛠️Code](#Training) |
 This repository contains the source code for the **SIGIR 2023** paper **''Where to Go Next for Recommender Systems? ID- vs. Modality-based Recommender Models Revisited''**.
 
 Full version in [[PDF]](https://arxiv.org/pdf/2303.13835.pdf).
