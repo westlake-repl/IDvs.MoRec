@@ -9,9 +9,9 @@
 
 Quick links: 
 [📋Talk](#Talk) |
-[🗃️Download](#Dataset) |
+[🗃️Dataset](#Dataset) |
 [📭Citation](#Citation) |
-[🛠️Code](#Training) |
+[🛠️Reproduce](#Training) |
 
 
 <p align="center" width="100%">
