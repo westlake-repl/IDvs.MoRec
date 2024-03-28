@@ -3,12 +3,11 @@
 <a href="https://dl.acm.org/doi/abs/10.1145/3539618.3591932" alt="SIGIR"><img src="https://img.shields.io/badge/SIGIR-2023-%23002FA7.svg?style=flat" /></a> 
 <a href="https://github.com/westlake-repl/MicroLens/blob/master/MicroLens_DeepMind_Talk.pdf" alt="Talk"><img src="https://img.shields.io/badge/Talk-DeepMind-orange" /></a> 
 <a href="https://medium.com/@lifengyi_6964/multimodal-recommender-system-vs-id-based-recommender-system-revisited-588ca88cd16e" alt="blog"><img src="https://img.shields.io/badge/Blog-Medium-purple" /></a> 
-<a href="https://zhuanlan.zhihu.com/p/633839409" /></a> 
+<a href="https://zhuanlan.zhihu.com/p/633839409" alt="zhihu"><img src="https://img.shields.io/badge/Zhihu-知乎-blue" /></a> 
 ![Text-based Recsys](https://img.shields.io/badge/Task-Text_based_Recsys-red) 
 ![Vision-based Recsys](https://img.shields.io/badge/Task-Vision_based_Recsys-red) 
 ![Foundation Model](https://img.shields.io/badge/Task-Foundation_Model-red) 
-![Transfer Learning](https://img.shields.io/badge/Task-Transfer_Learning-red) 
-![Recommendation](https://img.shields.io/badge/Task-Recommendation-red) 
+![Pre-training](https://img.shields.io/badge/Task-Recommendation-red) 
 
 Quick links: 
 [📋Talk](#Talk) |
