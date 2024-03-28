@@ -7,7 +7,7 @@
 ![Text-based Recsys](https://img.shields.io/badge/Task-Text_based_Recsys-red) 
 ![Vision-based Recsys](https://img.shields.io/badge/Task-Vision_based_Recsys-red) 
 ![Foundation Model](https://img.shields.io/badge/Task-Foundation_Model-red) 
-![Pre-training](https://img.shields.io/badge/Task-Recommendation-red) 
+![Recoomendation](https://img.shields.io/badge/Task-Recommendation-red) 
 
 Quick links: 
 [📋Talk](#Talk) |
