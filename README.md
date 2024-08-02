@@ -39,6 +39,8 @@ Invited Talk by Google DeepMind [(Slides)](https://github.com/westlake-repl/Micr
 -  **NineRec(TPAMI)**: https://github.com/westlake-repl/NineRec 
 
 -  **Tenrec(NeurIPS)**: https://github.com/yuangh-x/2022-NIPS-Tenrec
+-  
+-  **AntM2C(SIGIR)**: https://dl.acm.org/doi/abs/10.1145/3626772.3657865
 
 ## Requirements
 ```
