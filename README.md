@@ -30,7 +30,7 @@ Full version in [[Arxiv]](https://arxiv.org/pdf/2303.13835.pdf) or [[SIGIR2023]]
 ## Talk
 Invited Talk by Google DeepMind [(Slides)](https://github.com/westlake-repl/MicroLens/blob/master/MicroLens_DeepMind_Talk.pdf)
 
-🤗**New Resources**: four Large-scale datasets for evaluating foundation / transferable / multi-modal / LLM recommendaiton models.
+🤗**New Resources**: 5 Large-scale datasets for evaluating foundation / transferable / multi-modal / LLM recommendaiton models.
 
 -  **PixelRec**: https://github.com/westlake-repl/PixelRec
 
