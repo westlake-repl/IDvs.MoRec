@@ -16,11 +16,6 @@ Quick links:
 [🛠️Reproduce](#Training) |
 
 
-<p align="center" width="100%">
-  <img src='https://camo.githubusercontent.com/ace7effc2b35cda2c66d5952869af563e851f89e5e1af029cfc9f69c7bebe78d/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67' width="100%">
-</p>
-
-
 This repository contains the source code for the **SIGIR 2023** paper **''Where to Go Next for Recommender Systems? ID- vs. Modality-based Recommender Models Revisited''**.
 
 Full version in [[Arxiv]](https://arxiv.org/pdf/2303.13835.pdf) or [[SIGIR2023]](https://dl.acm.org/doi/abs/10.1145/3539618.3591932).
